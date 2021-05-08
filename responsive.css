@@ -1,92 +1,92 @@
-@media  all and (max-width: 1000px) {
-    .header-container {
-        left: 22%;
-    }
+@media all and (max-width: 1000px) {
+  .header-container {
+    left: 22%;
+  }
 
-    .top-wrapper h1 {
-        font-size: 32px;
-    }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
 
-    .lesson {
-        width: 50%;
-        margin-bottom: 50px;
-    }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 
-    .heading {
-        font-size: 20px;
-    }
+  .heading {
+    font-size: 20px;
+  }
 
-    footer {
-        text-align: center;
-    }
-    
+  footer {
+    text-align: center;
+  }
 }
 
-@media  all and (max-width: 670px) {
-    .header-container {
-        margin: 0 10px;
-        width: auto;
-        left: 0;
-    }
-    
-    .lessons {
-        display: block;
-    }
+@media all and (max-width: 670px) {
+  .header-container {
+    margin: 0 10px;
+    width: auto;
+    left: 0;
+  }
 
-    .lesson {
-        width: 100%;
-    }
+  .lessons {
+    display: block;
+  }
 
-    .top-wrapper {
-        text-align: left;
-    }
+  .lesson {
+    width: 100%;
+  }
 
-    .header-right {
-        display: none;
-    }
-      
-    .menu-icon {
-        display: block;
-    }
+  .top-wrapper {
+    text-align: left;
+  }
 
-    .top-wrapper h1 {
-        font-size: 24px;
-    }
+  .header-right {
+    display: none;
+  }
 
-    .top-wrapper p {
-        font-size: 14px;
-    }
+  .menu-icon {
+    display: block;
+  }
 
-    .btn {
-        width: 100%;
-    }
-    
-    .facebook {
-        margin-bottom: 10px;
-    }
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
 
-    .lesson-wrapper h2 {
-        font-size: 20px;
-    }
+  .top-wrapper p {
+    font-size: 14px;
+  }
 
-    .faq-wrapper {
-        padding: 50px 0 50px;
-    }
-    
-    #faq-list {
-         width: auto;
-    }
-    
-    .faq-list-item h3 {
-        padding-right: 25px;
-    }
-    
-    .faq-list-item span {
-        font-size: 16px;
-    }
+  .btn {
+    width: 100%;
+  }
 
-    .footer {
-        position: absolute;
-        bottom: 0;
-    }
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .lesson-wrapper h2 {
+    font-size: 20px;
+  }
+
+  .faq-wrapper {
+    padding: 50px 0 50px;
+  }
+
+  #faq-list {
+    width: auto;
+  }
+
+  .faq-list-item h3 {
+    padding-right: 25px;
+  }
+
+  .faq-list-item span {
+    font-size: 16px;
+  }
+
+  /* このスタイルは使ってないので削除してください */
+  .footer {
+    position: absolute;
+    bottom: 0;
+  }
 }
