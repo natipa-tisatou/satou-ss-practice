@@ -1,0 +1,266 @@
+*{
+    box-sizing:border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+html,
+p,
+input,
+div,
+body,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+  
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-image: url(./img/top.png);
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.signup {
+    background-color: #239b76
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    background-color: rgba(34,49,52,0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.header-container {
+    display: flex;
+    padding-left : 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 25px;
+    padding: 21px 0;
+    cursor: pointer;
+    display: none;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    width: 25%;
+}
+
+.lessons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lesson-wrapper {
+    text-align: center;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #b3aeb5
+}
+
+.message {
+    background-color: #5dca88;
+    padding:15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.heading h3, .heading h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.faq-wrapper{
+    background-color: #e6ecf0;
+    text-align: center;
+    padding-bottom: 80px;
+    color: #5f5d60;
+}
+
+#faq-list {
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.faq-list-item {
+    margin: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-list-item h3 {
+    font-size: 14px;
+    margin: 14px 0;
+}
+
+.faq-list-item span {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #333;
+    font-size: 13px;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.footer {
+    padding: 30px 0 20px 0;
+}
+
+.footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+.footer img {
+    width: 125px;
+}
