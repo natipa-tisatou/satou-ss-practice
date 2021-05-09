@@ -83,10 +83,5 @@
   .faq-list-item span {
     font-size: 16px;
   }
-
   /* このスタイルは使ってないので削除してください */
-  .footer {
-    position: absolute;
-    bottom: 0;
-  }
 }
